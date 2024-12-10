@@ -41,7 +41,7 @@ function SocialIcon({
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-100">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-100 p-12">
       <main className="max-w-4xl mx-auto min-h-screen flex flex-col justify-center">
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold text-gray-800 mb-4">
@@ -51,7 +51,7 @@ export default function Home() {
             Software Engineer in Japan.
           </p>
         </div>
-        <div className="flex justify-center items-center space-x-12">
+        <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-6 place-items-center">
           <SocialIcon
             icon={siX}
             href="https://x.com/y_s7i"
